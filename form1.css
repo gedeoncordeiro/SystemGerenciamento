@@ -1,0 +1,4 @@
+.formData{
+    display: flex;
+    flex-direction: column
+}
