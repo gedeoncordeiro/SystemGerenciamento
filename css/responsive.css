@@ -1,0 +1,44 @@
+@media(max-width: 800px){
+    body{
+        width: 100%;
+        margin: 0px;
+        
+    }
+
+    header{
+        margin: auto;
+    }
+    header img{
+        height: 20px;
+        margin: 10px;
+    }
+
+    .spaceHeader{
+        width: 100%;
+    }
+
+
+
+    .container{
+        height: 100%;
+        width: 100%;   
+    }
+    .caixaOpition{
+        
+        flex-direction: column;
+    }
+
+    .caixaOpition a{
+        flex-direction: column;
+    }
+    .linha1, .linha2, .linha3{
+        flex-direction: column;
+    }
+
+    .caixaOpition:hover{
+        height: 60px;
+        width: 240px;
+        margin: 14px;       
+    }
+
+}
