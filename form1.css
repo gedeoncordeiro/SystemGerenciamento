@@ -1,7 +1,8 @@
 .formData{
     padding: 10px;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    color: #ff0043;
 }
 
 .butData{
@@ -39,4 +40,9 @@ a {
     justify-content: space-around;
     text-decoration: none;
     cursor: pointer;
+}
+
+.formData input{
+    border: 1px solid #ff0043;
+    border-radius: 10px;
 }
