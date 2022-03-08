@@ -2,10 +2,12 @@ html {
     height: 100%;
 }
 body{
-    margin: 0;
+    height: 100%;
+    width: 100%;
+    margin: auto;
     padding: 0;
     font-family: sans-serif;
-    background: linear-gradient(#000000, #434343);
+    background-color: rgb(236, 236, 236);
 }
 .login-box{
     position: absolute;
@@ -15,22 +17,23 @@ body{
     height: 420px;
     padding: 40px;
     transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0);
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 10px;
+    border-bottom:  1px solid #ff0043;
 }
 .login-box h2 {
     margin: 0 0 30px;
     padding: 0;
-    color: #fff;
+    color: #ff0043;
     text-align: center;
 }
 
 .login-box img {
     position: inherit;
-    left: -350px;
-    top: -20px;
+    left: 30px;
+    top: 350px;
 } 
 
 .login-box .user-box{
@@ -43,7 +46,7 @@ body{
     color: #fff;
     margin-bottom: 30px;
     border: none;
-    border-bottom:  1px solid #fff;
+    border-bottom:  1px solid #ff0043;
     outline: none;
     background: transparent;
 }
@@ -159,3 +162,14 @@ body{
         bottom: 100%;
     }
 } */
+
+
+@media(max-width: 800px){
+    body{
+        background-color: black;
+    }
+    .login-box{
+        border-bottom:  none;
+    }
+
+}
