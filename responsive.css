@@ -46,6 +46,7 @@
 
     .butFunc{
         flex-direction: column;
+        align-items: center
     }
     .butForm{
         width: 200px;

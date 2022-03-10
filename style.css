@@ -142,3 +142,10 @@ footer{
     height: 200px;
     border-top: 3px solid #ff0043;
 }
+
+.social{
+    padding: 2px;
+}
+.social img{
+    padding: 10px;
+}
