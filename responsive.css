@@ -40,5 +40,21 @@
         width: 240px;
         margin: 14px;       
     }
+    
+    /*responsividade do form*/
+
+
+    .butFunc{
+        flex-direction: column;
+    }
+    .butForm{
+        width: 200px;
+        margin-right:0;
+        margin-bottom: 20px;
+    }
+    .box{
+        margin: 0px;
+        width: 92%;
+    }
 
 }
