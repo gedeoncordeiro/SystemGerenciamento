@@ -1,0 +1,118 @@
+
+.box{
+    /* position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    /* background-color: rgba(0, 0, 0, .6); */
+    margin: auto;
+    padding: 15px;
+    border-radius: 15px;
+    width: 60%;
+    color: #ff0043;
+}
+fieldset{
+    border: 2px solid #ff0043;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+legend{
+    border: 1px solid #ff0043;
+    padding: 10px;
+    text-align: center;
+    background-color: #ff0043;
+    border-radius: 5px;
+    color: white;
+}
+.inputBox{
+    position: relative;
+}
+
+.entradaDados{
+    background: none;
+    border: none;
+    border-bottom: 1.5px solid #ff0043;
+    outline: none;
+    color: black;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 1px ;
+}
+.caixaDados{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+/* Animação das caixas, o "focus" faz com que quando clicamos
+as alterações aconteçam.
+o "valid" faz com que a animação permaneça caso tenha dados 
+dentro da caixa
+o "~" aponta para onde a animação vai permanecer
+*/
+.entradaDados:focus ~ .caixaDados, .entradaDados:valid ~ .caixaDados{
+    top:-15px;
+    font-size: 12px;
+    color: #ff0043;
+}
+#data_nascimento{
+    border: 1px solid #ff0043;
+    color: #ff0043;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+#submit{
+    background-color: #ff0043; 
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#submit:hover{
+    background-color: black; 
+    color: #ff0043;
+}
+
+
+.butFunc{
+    display: flex;
+
+}
+.butFunc a{
+text-decoration: none;
+}
+
+
+.butForm{
+    width: 200px;
+    margin-right: 20px;
+    background-color: #ff0043; 
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.butForm:hover{
+    background-color: black; 
+    color: #ff0043;
+}
+/*--- extra ---*/
+body p{
+    margin: 0px;
+    margin-bottom: 2px;
+}
