@@ -42,7 +42,20 @@ a {
     cursor: pointer;
 }
 
-.formData input{
+/* .formData input{
     border: 1px solid #ff0043;
     border-radius: 10px;
+    height: 25px;
+    margin-top: 5px;
+} */
+
+.entradaDados{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ff0043;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px ;
 }

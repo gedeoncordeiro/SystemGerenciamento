@@ -25,20 +25,49 @@
    
     <form class="formulario" action="#" method="post">
         <div class="formData">
-            <label for="#">Nome do Aluno:</label>
-            <input type="text" name="nome" id="">
-        </div>
-        
-        <div  class="formData">
-            <label for="#">Endereço:</label>
-            <input type="text" name="endereco" id="">
+            <input type="text" name="nome" id="nome" class="entradaDados">
+            <label for="nome" class="caixaDados">Nome do Aluno</label>
         </div>
 
         <div class="formData">
-            <label for="#">Telefone:</label>
-            <input type="tel" name="telefone" id="">
+            <input type="text" name="email" id="email" class="entradaDados">
+            <label for="email" class="caixaDados">Email</label>
         </div>
         
+        <div class="formData">
+            <input type="tel" name="telefone" id="telefone" class="entradaDados">
+            <label for="telefone">Telefone</label>
+        </div>
+        <p>Sexo:</p>
+        <input type="radio" id="feminino" name="genero" value="feminino" required>
+        <label for="feminino">Feminino</label>
+        <br>
+        <input type="radio" id="masculino" name="genero" value="masculino" required>
+        <label for="masculino">Masculino</label>
+        <br>
+        <input type="radio" id="outro" name="genero" value="outro" required>
+        <label for="outro">Outro</label>
+        <br><br>
+        <div class="inputBox">
+            <label for="nome"> <b>Data de Nascimento:</b> </label>
+            <input type="date" name="data_nascimento" id="data_nascimento"required>
+        </div>
+        
+        <div  class="formData">
+            <input type="text" name="cidade" id="cidade" class="entradaDados">
+            <label for="cidade">Cidade:</label>
+        </div>
+        <div  class="formData">
+            <input type="text" name="estado" id="estado" class="entradaDados">
+            <label for="estado">Estado:</label>
+        </div>
+        <div  class="formData">
+            <input type="text" name="endereco" id="endereco" class="entradaDados">
+            <label for="endereco">Endereço:</label>
+        </div>
+        
+        <input type="submit" name="submit" id="submit">
+
 
         <div class="butData">Salvar</div>
         
