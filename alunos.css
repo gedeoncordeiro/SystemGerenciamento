@@ -1,0 +1,17 @@
+table{
+    border: 1px solid #ff0043;
+    border-radius: 2px;
+    padding: 2px;
+    margin: 20px 10px;
+}
+
+.principalLine{
+    background-color: #ff0043;
+    color: white;
+}
+.line1{
+    background-color: #ebe9ea;
+}
+.line2{
+    background-color: #ff9db7;
+}
