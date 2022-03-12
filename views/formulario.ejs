@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleform.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" type="imagex/png" href="img/icon.png">
+    <title>System Gerenciamento</title>
+</head>
+<body>
+
+    <%- include("./partials/header") %>
+
+    <!-- <section class="container">
+    
+    </section> -->
+
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Cadastro de Alunos</b> </legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="entradaDados" required>
+                    <label for="nome" class="caixaDados">Nome completo</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="entradaDados" required>
+                    <label for="nome" class="caixaDados">Email</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="entradaDados" required>
+                    <label for="nome" class="caixaDados">Telefone</label>
+                </div>
+                <br>
+                <p>Sexo:</p>
+                <input type="radio" id="feminino" name="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <br>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <br>
+                <input type="radio" id="outro" name="genero" value="outro" required>
+                <label for="outro">Outro</label>
+                <br><br>
+                <div class="inputBox">
+                    <label for="nome"> <b>Data de Nascimento:</b> </label>
+                    <input type="date" name="data_nascimento" id="data_nascimento"required>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="cidade" id="cidade" class="entradaDados" required>
+                    <label for="nome" class="caixaDados">Cidade</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="entradaDados" required>
+                    <label for="nome" class="caixaDados">Estado</label>
+                </div>
+                <br>
+                 <div class="inputBox">
+                    <input type="text" name="endereco" id="endereco" class="entradaDados" required>
+                    <label for="nome" class="caixaDados">Endereço</label>
+                </div>
+                <br><br>
+
+                <input type="submit" value="Salvar" name="submit" id="submit">
+               <br><br>
+               <div class="butFunc">
+                <a href="/">
+                    <div class="butForm">
+                        Voltar
+                    </div>
+                </a>
+                <a href="/alunos">
+                    <div class="butForm">
+                        Alunos Cadastrados
+                    </div>
+                </a>
+
+               </div>
+              
+                
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+<%- include("./partials/footer") %>
+
+<script src="https://kit.fontawesome.com/4e81d7e2d6.js" crossorigin="anonymous"></script>
+</html>
